@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>love letters</title>
+  <link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+  
+  
+      <style>
+      @import url('https://fonts.googleapis.com/css?family=Satisfy');
+
+html {
+  height: 100%;
+  overflow: hidden;
+}
+
+body { 
+  margin:0;
+  padding:0;
+	perspective: 1px;
+	transform-style: preserve-3d;
+  height: 100%;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  font-family: 'Satisfy', cursive;
+}
+
+h1 {
+   font-size: 250%
+}
+
+p {
+  line-height: 150%;
+  color: #333;
+}
+
+.slide {
+  position: relative;
+  padding: 20vh 5%;
+  min-height: 100vh;
+  width: 100vw;
+  box-sizing: border-box;
+  font-size: 40px;
+
+	transform-style: inherit;
+}
+          
+img {
+  position: absolute;
+  top: 50%;
+  left: 35%;
+  width: 400px;
+  height: 440px;
+  transform: translateZ(.25px) scale(.75) translateX(-94%) translateY(-100%) rotate(2deg);
+  border-radius: 5px;
+}
+
+img:last-of-type {
+  transform: translateZ(.4px) scale(.6) translateX(-104%) translateY(-40%) rotate(-5deg);
+}
+
+.slide:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.title {
+  width: 50%;
+  font-size: 30px;
+  border-radius: 10px;
+  
+}
+
+.slide:nth-child(2n) .title {
+  margin-left: 0;
+  margin-right: auto;
+}
+
+.slide:nth-child(2n+1) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+
+.slide:nth-child(2n+2) .title {
+  margin-left: auto;
+  margin-right: 0;
+}
+          
+.slide, .slide:before {
+  background: 50% 50% / cover;  
+}
+
+.header {
+  text-align: center;
+  font-size: 175%;
+}
+
+#title {
+  background-color: floralwhite; 
+  max-height: 100%;
+  max-width: 100%;
+  z-index:2;
+}
+
+#title h1 {
+ transform: translateZ(.25px) scale(.75);
+ transform-origin: 50% 100%;
+
+}
+
+#slide1:before {
+  background-color:#B25B71;
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide2 {
+  background-color: #c4a994;
+  z-index:2;
+}
+
+#slide3:before {
+  background-color: floralwhite;
+  transform: translateZ(-1px) scale(2);
+}
+
+#slide4 {
+  background-color: #bdbd9b;
+}
+
+#slide5 {
+  background-color: #a73b53;
+}
+
+#slide6 {
+  background-color: #c4a994;
+}
+
+#slide7 {
+  background-color: #bdbd9b;
+}
+
+#slide8 {
+  background-color: floralwhite;
+}
+    </style>
+
+    
+
+</head>
+
+<body>
+
+  <div id="title" class="slide header">
+  <h1>my journal</h1>
+  <p> no point in writing this section, really, since no one will ever read it but there's no harm in having a good introduction. here lies my fears, my desires, and everything in between.</p>
+</div>
+
+<div id="slide1" class="slide">
+    <h1>may 1, 2016</h1>
+    <p>~ first day we met ~</p>
+    <p> you were looking for a seat in the assembly hall and had tripped on your way to the one right beside mine. i've never met anyone clumsy enough to trip on air. of course, i'm not telling you that, nor will i ever tell you that i'm writing about it. </p>
+</div>
+
+<div id="slide2" class="slide">
+  <div class="title">
+    <h1>december 16, 2016</h1>
+    <p>~ first non-official date ~</p>
+    <p> given the nature of our platonic relationship, i can't really say that this is a "date," but i'll take what i can get. i'm really not a big fan of coffee, but it's a small price to pay for the great day i had.</p>
+    <p> note to self: don't order black coffee.</p>
+  </div>
+  <img src="polaroid2.png">
+  <img src="polaroid1.png"> 
+</div>
+
+<div id="slide3" class="slide">
+    <h1>august 9, 2017</h1>
+    <p>~ first fight ~</p>
+    <p> today was definitely not the best. whenever something's up, i usually shut my self out from everyone and deal with my emotions. most times, i feel unapologetic for these actions because it's normal, but today is different. i feel awful. i shouldn't have lashed out because you were only trying to help. might've just ruined my already-low chances. </p>
+</div>
+    
+
+<div id="slide4" class="slide">
+  <div class="title">
+    <h1>august 12, 2017</h1>
+    <p>~ first make-up date ~</p>
+    <p> again, not an actual date. just lack of a better term. </p>
+    <p> you called at around eight in the evening to ask me if we could meet up and talk. i must've set a record for my fastest prep time because i was already out of the door when the call ended. we sat on a rooftop and laid everything out. i wasn't sure if i was going to be completely comfortable with being vulnerable around anyone, but i guess some people really do make that easy. maybe if...never mind.</p>
+  </div>
+  <img src="polaroid3.png">
+</div>
+
+<div id="slide5" class="slide">
+  <div class="title">
+    <h1>february 27, 2018</h1>
+    <p>~ city stroll ~</p>
+    <p> it was really weird not seeing you everyday. your trip abroad felt like it lasted literal years, even though you were only gone for a month. i felt so happy seeing you back that i couldn't wait to ask you to hang out. glad i did because i had such a fun time just walking around with you, even if i got chased by a dog and almost got run over by a bike messenger in the process. </p>
+    <p> note to self: always check sides when walking. also, don't pet guard dogs.</p>
+  </div>
+  <img src="polaroid4.png">
+  <img src="polaroid5.png">
+</div>
+
+<div id="slide6" class="slide">
+  <div class="title">
+    <h1>october 3, 2018</h1>
+    <p>~ maybe i should? ~</p>
+    <p> today was nothing out of the ordinary. we got tickets to see a movie that was currently out (i'd say the rating was around 7.5/10). after that, we picked up some new books from the store. then we just sat in the park until it got dark. i'm beginning to doubt my initial plans of hiding things from you. it might not have been the best idea i've ever come up with.</p>
+  </div>
+  <img src="polaroid6.png">
+</div>
+
+<div id="slide7" class="slide">
+  <div class="title">
+    <h1>february 14, 2019</h1>
+    <p>~ clueless ~</p>
+    <p> okay now i'm really confused. logically speaking, it would be best not to bring it up, like, ever. that's just the safest option. right? right. of course. i'm absolutely positive. </p>
+    <p></p>
+    <p> though, this "platonic-bouquet-of-flowers weird tradition you have is kind of confusing. pretty, but confusing. </p>
+  </div>
+  <img src="polaroid7.png">
+</div>
+
+<div id="slide8" class="slide">
+    <h1>february 28, 2019</h1>
+    <p>~ end ~</p>
+    <p> and that brings us here. so, like i said, this wasn't supposed to be for your eyes, so i apologize again for certain details that i may have included that could've possibly weirded you out or offended you. the stuff i wrote here were my most honest, unfiltered thoughts, and i hope that in sharing them, you understand why i act the way i do and why i've done everything i have. 
+    
+    <p> if not, then the answer was on the first line of the letter. </p>
+</div>
+
+</body>
+
+</html>
